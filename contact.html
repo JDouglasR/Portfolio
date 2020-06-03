@@ -13,7 +13,7 @@
   <!-- The following code relates to the Navigation Bar and its functions for the Contact page -->
   
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(11, 144, 169)";>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(60, 141, 155, 0.9)";>
       <a class="navbar-brand" href="index.html">Justin Roose</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,32 +38,34 @@
 
   <main>
     <section>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h3>Contact</h3>
-              <hr>
-              <form>
-                <div class="form-group">
-                  <label for="ContactForm-InputEmail">Email address</label>
-                  <input type="email" class="form-control" id="ContactForm-InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="ContactForm-YourName">Your Name</label>
-                  <textarea class="form-control" id="ContactForm-YourName" rows="1"></textarea>
-                </div>
-                <div class="form-group">
-                  <label for="ContactForm-Comments">Comments</label>
-                  <textarea class="form-control" id="ContactForm-Comments" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+      <div class="container">
+        <div class="row" id="padding">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h3>Contact</h3>
+                <hr>
+                <form>
+                  <div class="form-group">
+                    <label for="ContactForm-InputEmail">Email address</label>
+                    <input type="email" class="form-control" id="ContactForm-InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="ContactForm-YourName">Your Name</label>
+                    <textarea class="form-control" id="ContactForm-YourName" rows="1"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="ContactForm-Comments">Comments</label>
+                    <textarea class="form-control" id="ContactForm-Comments" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
             </div>
+          <div class="col-md-3"></div>
           </div>
-        <div class="col-md-3"></div>
         </div>
       </div>
     </section>
