@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Assets/Images/abstract-activity-art-background-288100.jpg");
+    background-image: url("Assets/Images/abstract-activity-art-background-288100.jpg");
     background-repeat: no-repeat ;
     background-size: cover;
 }
@@ -17,7 +17,7 @@ body {
     padding: 0 10px;
   }
   
-  
+
 .row {
       margin: 0 -5px;
 }
