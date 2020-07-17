@@ -1,16 +1,66 @@
 body {
-    background-image: url("../Images/abstract-activity-art-background-288100.jpg");
-    background-repeat: no-repeat ;
-    background-size: cover;
+  background-image: url("../Images/abstract-activity-art-background-288100.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fa-github-square {
+    color: #999999;
+}
+
+.fa-github-square:hover {
+    color: #24292e;
+}
+
+.fa-github-square:active {
+  color: #24292e;
+}
+
+.fa-linkedin {
+    color: #999999;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-facebook-square {
+    color: #999999;
+}
+
+.fa-facebook-square:hover {
+    background:-moz-linear-gradient(top, #3eaaed 0%, #1778F2 100%); 
+    background: -webkit-linear-gradient(top, #3eaaed 0%,#1778F2 100%); 
+    background: linear-gradient(to bottom, #3eaaed 0%,#1778F2 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
+footer {
+  background-color: rgba(60, 141, 155, 0.9);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  line-height: 50px;
+  bottom: 0;
 }
 
 #padding {
-    padding: 30px;
+  padding: 30px;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }

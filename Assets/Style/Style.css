@@ -1,16 +1,26 @@
 body {
-    background-image: url("../Images/abstract-activity-art-background-288100.jpg");
-    background-repeat: no-repeat ;
-    background-size: cover;
+  background-image: url("../Images/abstract-activity-art-background-288100.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: rgba(60, 141, 155, 0.9);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  line-height: 50px;
 }
 
 #padding {
-    padding: 30px;
+  padding: 30px;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }
