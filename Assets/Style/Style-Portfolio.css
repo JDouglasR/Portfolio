@@ -2,7 +2,11 @@ body {
   background-image: url("../Images/abstract-activity-art-background-288100.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 .container {
   display: flex;
 }
@@ -40,9 +44,8 @@ footer {
   text-align: center;
   height: 50px;
   width: 100%;
-  position: absolute;
   line-height: 50px;
-  bottom: 0;
+  margin-top: auto;
 }
 
 .col-md-4 {
