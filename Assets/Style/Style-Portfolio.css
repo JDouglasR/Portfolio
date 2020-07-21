@@ -38,6 +38,10 @@ body {
   background-color: #f1f1f1;
 }
 
+.btn {
+  justify-self: auto;
+}
+
 footer {
   background-color: rgba(60, 141, 155, 0.9);
   color: rgb(255, 255, 255);
