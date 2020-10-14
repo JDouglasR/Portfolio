@@ -7,18 +7,17 @@ body {
   min-height: 100vh;
 }
 
-
 i {
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .fa-github-square {
-    color: #999999;
+  color: #999999;
 }
 
 .fa-github-square:hover {
-    color: #24292e;
+  color: #24292e;
 }
 
 .fa-github-square:active {
@@ -26,39 +25,30 @@ i {
 }
 
 .fa-linkedin {
-    color: #999999;
+  color: #999999;
 }
 
 .fa-linkedin:hover {
-    color: #0077B5;
+  color: #0077b5;
 }
 
 .fa-linkedin:active {
-  color: #0077B5;
+  color: #0077b5;
 }
 
 .fa-facebook-square {
-    color: #999999;
+  color: #999999;
 }
 
-.fa-facebook-square:hover {
-    background:-moz-linear-gradient(top, #3eaaed 0%, #1778F2 100%); 
-    background: -webkit-linear-gradient(top, #3eaaed 0%,#1778F2 100%); 
-    background: linear-gradient(to bottom, #3eaaed 0%,#1778F2 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-   -webkit-text-fill-color:transparent;
-}
-
+.fa-facebook-square:hover,
 .fa-facebook-square:active {
-  background:-moz-linear-gradient(top, #3eaaed 0%, #1778F2 100%); 
-  background: -webkit-linear-gradient(top, #3eaaed 0%,#1778F2 100%); 
-  background: linear-gradient(to bottom, #3eaaed 0%,#1778F2 100%);
+  background: -moz-linear-gradient(top, #72beec 0%, #1778f2 100%);
+  background: -webkit-linear-gradient(top, #72beec 0%, #1778f2 100%);
+  background: linear-gradient(to bottom, #72beec 0%, #1778f2 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
- -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .fa-envelope-square {
@@ -66,11 +56,11 @@ i {
 }
 
 .fa-envelope-square:hover {
-  color: #B23121;
+  color: #b23121;
 }
 
 .fa-envelope-square:active {
-color: #B23121;
+  color: #b23121;
 }
 
 .fa-phone-square {
@@ -82,7 +72,7 @@ color: #B23121;
 }
 
 .fa-phone-square:active {
-color: #309b30;
+  color: #309b30;
 }
 
 footer {
